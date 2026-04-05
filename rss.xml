@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yubairuime&apos;s blog</title><link>https://yubairuime.github.io/rss.xml</link><description>一個創作者的隨筆</description><item><title>寫十年後還會讀的文章</title><link>https://yubairuime.github.io//posts/timeless_writing</link><description><![CDATA[內容創作者應該儘可能創作不被時間淘汰的作品。]]></description><pubDate>Thu, 28 Aug 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p>比起寫一個月就失去價值的文章，我更希望創作十年後還會有人讀的作品。網路上目前多數貼文、文章活不過半年——了不起的文章一年。隨著時間和熱潮過去，這些作品的價值也隨之消失。經歷時間考驗的文章寥寥無幾，但這些文章才有真正的價值。而我認為，一個創作者應該盡力創作此類作品。</p>
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yubairuime&apos;s blog</title><link>https://yubairuime.github.io/blog/rss.xml</link><description>一個創作者的隨筆</description><item><title>寫十年後還會讀的文章</title><link>https://yubairuime.github.io/blog//posts/timeless_writing</link><description><![CDATA[內容創作者應該儘可能創作不被時間淘汰的作品。]]></description><pubDate>Thu, 28 Aug 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p>比起寫一個月就失去價值的文章，我更希望創作十年後還會有人讀的作品。網路上目前多數貼文、文章活不過半年——了不起的文章一年。隨著時間和熱潮過去，這些作品的價值也隨之消失。經歷時間考驗的文章寥寥無幾，但這些文章才有真正的價值。而我認為，一個創作者應該盡力創作此類作品。</p>
 <p>當然，這不代表所謂「廢文」沒有價值。如同在閣樓翻到陳年的舊照片，多年以後回看這些記憶片刻，又是另一種特別的體驗。不過，私認為「廢文」更適合放在 Mastodon、Instagram、X——或傳統一點，日記——上。「我想別人知道這些事」、「我想幫助別人」、「我想藉此學習、賺錢」，寫部落格的理由該是其中之一，而也正因如此，創作者更該創作恆久的內容——因為這才是資訊世代得到長久注意力的方式。</p>
 <h2>容易過時的文章主題</h2>
 <ul>
@@ -17,7 +17,7 @@
 <li>恆常不變的技術（C、Linux）</li>
 <li>對事物本質的深刻思考</li>
 </ul>
-]]></content:encoded></item><item><title>一次搞懂動態類型/靜態類型、強類型/弱類型</title><link>https://yubairuime.github.io//posts/static-dynamic-strong-weak-typed</link><description><![CDATA[]]></description><pubDate>Sat, 1 Nov 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p>第一堂資訊課時，電腦老師總會（應該吧）說「C++ 是靜態 &amp; 弱類型語言、Python 是動態 &amp; 強類型語言」。</p>
+]]></content:encoded></item><item><title>一次搞懂動態類型/靜態類型、強類型/弱類型</title><link>https://yubairuime.github.io/blog//posts/static-dynamic-strong-weak-typed</link><description><![CDATA[]]></description><pubDate>Sat, 1 Nov 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p>第一堂資訊課時，電腦老師總會（應該吧）說「C++ 是靜態 &amp; 弱類型語言、Python 是動態 &amp; 強類型語言」。</p>
 <p>但 C++ 又哪裏「靜態」？Python 又為何是「強類型」？</p>
 <p>這篇文章，我想談談「動態/靜態類型」、「強/弱」語言之間的差異。</p>
 <h2>動態類型 &amp; 靜態類型</h2>
@@ -86,7 +86,7 @@ double add(double a, double b) {
 </ul>
 <p>因爲編譯器可以由程式中推出變數的類型、一個 class 有哪些函數，所以普遍而言 IDE 對靜態語言的支持較好。</p>
 <p>不過這點在 Microsoft 搞出 LSP 後差距減少不少。</p>
-]]></content:encoded></item><item><title>我為什麼使用 Emacs</title><link>https://yubairuime.github.io//posts/why-emacs</link><description><![CDATA[解釋我使用 Emacs 的原因——Flexibility, Power, Keyboard-Driven。]]></description><pubDate>Wed, 27 Aug 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p>我從兩年前開始用 Emacs——我通常用它來寫文章（包括目前這篇）、寫程式、問 AI 問題，使用體驗非常好。但是，我周圍的人幾乎都不理解——他們覺得 Emacs 很慢、老、而且很奇怪（可能最後一點是對的）。</p>
+]]></content:encoded></item><item><title>我為什麼使用 Emacs</title><link>https://yubairuime.github.io/blog//posts/why-emacs</link><description><![CDATA[解釋我使用 Emacs 的原因——Flexibility, Power, Keyboard-Driven。]]></description><pubDate>Wed, 27 Aug 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p>我從兩年前開始用 Emacs——我通常用它來寫文章（包括目前這篇）、寫程式、問 AI 問題，使用體驗非常好。但是，我周圍的人幾乎都不理解——他們覺得 Emacs 很慢、老、而且很奇怪（可能最後一點是對的）。</p>
 <p>所以，我想來說說我使用 Emacs 作為主力 text editor （和系統）的理由。</p>
 <h2>Flexibility</h2>
 <h3>Emacs 給你真正的自由</h3>
@@ -149,7 +149,7 @@ double add(double a, double b) {
 <h2>總結</h2>
 <p>試試看 Emacs 吧。可以用用看我的 <a href="https://codeberg.org/yubaitw/emacs.d">emacs.d</a>，或是用成熟的 configuration （比如 <a href="https://github.com/doomemacs/doomemacs">Doom Emacs</a>）。</p>
 <p>你會喜歡上 Emacs 的 :)</p>
-]]></content:encoded></item><item><title>設定 GitHub SSH 連線公鑰</title><link>https://yubairuime.github.io//posts/setting-up-github-ssh-public-key</link><description><![CDATA[如何在本機生成 SSH Key，並加入 GitHub。]]></description><pubDate>Mon, 22 Jul 2024 12:00:00 +0000</pubDate><content:encoded><![CDATA[<h2>1. 利用 <code>ssh-keygen</code> 產生金鑰</h2>
+]]></content:encoded></item><item><title>設定 GitHub SSH 連線公鑰</title><link>https://yubairuime.github.io/blog//posts/setting-up-github-ssh-public-key</link><description><![CDATA[如何在本機生成 SSH Key，並加入 GitHub。]]></description><pubDate>Mon, 22 Jul 2024 12:00:00 +0000</pubDate><content:encoded><![CDATA[<h2>1. 利用 <code>ssh-keygen</code> 產生金鑰</h2>
 <p>在 terminal 底下輸入以下指令：</p>
 <pre><code>ssh-keygen -t ed25519 -C &quot;youremail@example.com&quot;
 </code></pre>
@@ -163,7 +163,7 @@ double add(double a, double b) {
 <h2>3. 將金鑰新增至 GitHub</h2>
 <p>打開 <a href="https://github.com/settings/keys">GitHub 設定金鑰的頁面</a>，按下畫面中的 <strong>New SSH key</strong>，貼上剛剛複製的公鑰，按下確定後即設定完成。</p>
 <p>此時你可以用 <code>ssh</code> clone 隨意一個 repo 看看，如果 clone 的了就是設定成功了。</p>
-]]></content:encoded></item><item><title>2026 新的開始</title><link>https://yubairuime.github.io//posts/2026_new_start</link><description><![CDATA[]]></description><pubDate>Mon, 29 Dec 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p>後天便是 2026 了（時間過得還真快）。</p>
+]]></content:encoded></item><item><title>2026 新的開始</title><link>https://yubairuime.github.io/blog//posts/2026_new_start</link><description><![CDATA[]]></description><pubDate>Mon, 29 Dec 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p>後天便是 2026 了（時間過得還真快）。</p>
 <p>我為 2026 立下了三個最重要的目標：</p>
 <ul>
 <li>重新設計生活</li>
@@ -197,7 +197,7 @@ double add(double a, double b) {
 <p>最近寫個人 Project 有感：底層知識還是挺重要的。別看網上 Vibe Coding 一堆，上生產照樣被幹到飛起。</p>
 <p>CSAPP 作為可能是 Computer Architecture 中最全面的入門書（CMU 的入門，嗯），在國內外頗具盛名。</p>
 <p>考量到時間精力，我大概只會讀到第九章（Virtual Memory）。但應該也夠我用一陣子了。</p>
-]]></content:encoded></item><item><title>我用 Rust 寫了一個 Static Site Generator 取代 Hugo</title><link>https://yubairuime.github.io//posts/i-wrote-a-ssg-to-replace-hugo</link><description><![CDATA[爲了更多的自由，我放棄使用 Hugo，轉而用 Rust 重頭寫了一個 Static Site Generator (SSG)。]]></description><pubDate>Sun, 7 Sep 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p>近來無事，用 Rust 從頭刻了一個 Static Site Generator——<a href="https://github.com/yubaitw/jet">Jet</a>。</p>
+]]></content:encoded></item><item><title>我用 Rust 寫了一個 Static Site Generator 取代 Hugo</title><link>https://yubairuime.github.io/blog//posts/i-wrote-a-ssg-to-replace-hugo</link><description><![CDATA[爲了更多的自由，我放棄使用 Hugo，轉而用 Rust 重頭寫了一個 Static Site Generator (SSG)。]]></description><pubDate>Sun, 7 Sep 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p>近來無事，用 Rust 從頭刻了一個 Static Site Generator——<a href="https://github.com/yubaitw/jet">Jet</a>。</p>
 <p>Static Site Generator 就是 Hugo、Hexo 這些可以將 Markdown 檔案轉成 HTML 的程式。因為很多網站（GitHub Pages、Netlify）可以讓你免費丟靜態的 HTML，所以不少人用 Hugo 或 Hexo 寫部落格，多數中文獨立部落格是用 SSG 生成的。</p>
 <p>之前這個部落格就是用 Hugo 架的。那為什麼我要自己從頭造輪子？有現成的 Hugo、Hexo 不好嗎？</p>
 <h2>為什麼我放棄 Hugo</h2>
@@ -301,7 +301,7 @@ double add(double a, double b) {
 <li><code>jet serve</code> 在 local 預覽網站</li>
 <li><code>jet build</code> 生成最後能上線的網站檔案</li>
 </ul>
-]]></content:encoded></item><item><title>人生地圖——過好這一生，你需要什麼</title><link>https://yubairuime.github.io//posts/life-roadmap</link><description><![CDATA[人生可以劃分成數個重要的領域，而人應該花大部分時間顧好這些領域。]]></description><pubDate>Sun, 21 Sep 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p><img src="/images/life.webp" alt="" /></p>
+]]></content:encoded></item><item><title>人生地圖——過好這一生，你需要什麼</title><link>https://yubairuime.github.io/blog//posts/life-roadmap</link><description><![CDATA[人生可以劃分成數個重要的領域，而人應該花大部分時間顧好這些領域。]]></description><pubDate>Sun, 21 Sep 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p><img src="/images/life.webp" alt="" /></p>
 <p>比起 <a href="https://www.buildingasecondbrain.com/para">PARA</a>、<a href="https://zettelkasten.de/overview/">卡片盒筆記法</a>、<a href="https://gettingthingsdone.com/">GTD</a> 這些繁瑣的方法，個人認為有兩個問題比這些方法更重要：</p>
 <blockquote>
 <p>「<strong>我們是誰？</strong>」和「<strong>我們要去哪？</strong>」。</p>
@@ -376,9 +376,9 @@ double add(double a, double b) {
 <p>副業的規模不用過大，也不一定得賺錢。一個簡單的 side project、YouTube 頻道或替報刊寫稿都是很好的副業。</p>
 <h4>財務</h4>
 <p>財務遠不止「無腦定期定額 0050」這麼簡單。由於我不是財務上的專家，我無法提供太有建設性的意見。不過我可以給個大原則：<strong>深入瞭解原理</strong>（其他領域也適用，但在此尤其重要）。瞭解原理後，你就不會被一些靠着運氣投資賺了不少錢的猴子騙。</p>
-]]></content:encoded></item><item><title>如何打造想要的人生</title><link>https://yubairuime.github.io//posts/how-to-succeed-naval</link><description><![CDATA[從納瓦爾的貼文談如何成功]]></description><pubDate>Thu, 18 Sep 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p><img src="/images/naval.png" alt="" /></p>
+]]></content:encoded></item><item><title>如何打造想要的人生</title><link>https://yubairuime.github.io/blog//posts/how-to-succeed-naval</link><description><![CDATA[從納瓦爾的貼文談如何成功]]></description><pubDate>Thu, 18 Sep 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p><img src="/images/naval.png" alt="" /></p>
 <p>上圖是 Naval（一個知名天使投資人 &amp; 講者）廣爲人知的 tweet。私認爲這則 tweet 十分中肯且貼切，值得每個人參考。</p>
-]]></content:encoded></item><item><title>我推的內容（不定期更新）</title><link>https://yubairuime.github.io//posts/what-i-recommend</link><description><![CDATA[記錄值得推薦的部落格、書籍、動漫、遊戲和電影]]></description><pubDate>Sat, 20 Sep 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<h2>前言</h2>
+]]></content:encoded></item><item><title>我推的內容（不定期更新）</title><link>https://yubairuime.github.io/blog//posts/what-i-recommend</link><description><![CDATA[記錄值得推薦的部落格、書籍、動漫、遊戲和電影]]></description><pubDate>Sat, 20 Sep 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<h2>前言</h2>
 <p>下午在刷 RSS Reader 時，我突然覺得來整理一個「我會推薦給別人的清單」是個好點子。所以這篇文章會收錄（幾乎）所有我欣賞的內容，包含部落格、書籍、動漫、遊戲和電影等等。</p>
 <p><strong>排名不分前後</strong>。</p>
 <h2>部落格</h2>
@@ -444,7 +444,7 @@ double add(double a, double b) {
 <li>三個傻瓜</li>
 <li>波希米亞狂想曲</li>
 </ul>
-]]></content:encoded></item><item><title>你不必回答每個問題</title><link>https://yubairuime.github.io//posts/on_problems</link><description><![CDATA[]]></description><pubDate>Wed, 24 Dec 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p>我將所有問題分成兩種：</p>
+]]></content:encoded></item><item><title>你不必回答每個問題</title><link>https://yubairuime.github.io/blog//posts/on_problems</link><description><![CDATA[]]></description><pubDate>Wed, 24 Dec 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p>我將所有問題分成兩種：</p>
 <ul>
 <li>A 類：需要回答的問題</li>
 <li>B 類：不一定要回答的問題</li>
