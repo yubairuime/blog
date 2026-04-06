@@ -147,7 +147,7 @@ double add(double a, double b) {
 <p>在 VSCode 中，如果我想打開 GitHub Copilot 問問題，我必須用滑鼠打開右邊的 tab、輸入 prompt、再用滑鼠複製回答。</p>
 <p>但在 Emacs 中，我可以直接 <code>SPC g p</code> 開一個空的 chat、輸入完問題按 <code>C-C &lt;return&gt;</code> 得到答案，再用 Emacs keymap 複製答案。整個過程不用滑鼠，也快上不少。</p>
 <h2>總結</h2>
-<p>試試看 Emacs 吧。可以用用看我的 <a href="https://codeberg.org/yubaitw/emacs.d">emacs.d</a>，或是用成熟的 configuration （比如 <a href="https://github.com/doomemacs/doomemacs">Doom Emacs</a>）。</p>
+<p>試試看 Emacs 吧。可以用用看我的 <a href="https://github.com/yubairuime/emacs.d">emacs.d</a>，或是用成熟的 configuration （比如 <a href="https://github.com/doomemacs/doomemacs">Doom Emacs</a>）。</p>
 <p>你會喜歡上 Emacs 的 :)</p>
 ]]></content:encoded></item><item><title>設定 GitHub SSH 連線公鑰</title><link>https://yubairuime.github.io/blog//posts/setting-up-github-ssh-public-key</link><description><![CDATA[如何在本機生成 SSH Key，並加入 GitHub。]]></description><pubDate>Mon, 22 Jul 2024 12:00:00 +0000</pubDate><content:encoded><![CDATA[<h2>1. 利用 <code>ssh-keygen</code> 產生金鑰</h2>
 <p>在 terminal 底下輸入以下指令：</p>
@@ -197,7 +197,7 @@ double add(double a, double b) {
 <p>最近寫個人 Project 有感：底層知識還是挺重要的。別看網上 Vibe Coding 一堆，上生產照樣被幹到飛起。</p>
 <p>CSAPP 作為可能是 Computer Architecture 中最全面的入門書（CMU 的入門，嗯），在國內外頗具盛名。</p>
 <p>考量到時間精力，我大概只會讀到第九章（Virtual Memory）。但應該也夠我用一陣子了。</p>
-]]></content:encoded></item><item><title>我用 Rust 寫了一個 Static Site Generator 取代 Hugo</title><link>https://yubairuime.github.io/blog//posts/i-wrote-a-ssg-to-replace-hugo</link><description><![CDATA[爲了更多的自由，我放棄使用 Hugo，轉而用 Rust 重頭寫了一個 Static Site Generator (SSG)。]]></description><pubDate>Sun, 7 Sep 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p>近來無事，用 Rust 從頭刻了一個 Static Site Generator——<a href="https://github.com/yubaitw/jet">Jet</a>。</p>
+]]></content:encoded></item><item><title>我用 Rust 寫了一個 Static Site Generator 取代 Hugo</title><link>https://yubairuime.github.io/blog//posts/i-wrote-a-ssg-to-replace-hugo</link><description><![CDATA[爲了更多的自由，我放棄使用 Hugo，轉而用 Rust 重頭寫了一個 Static Site Generator (SSG)。]]></description><pubDate>Sun, 7 Sep 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p>近來無事，用 Rust 從頭刻了一個 Static Site Generator——<a href="https://github.com/yubairuime/jet">Jet</a>。</p>
 <p>Static Site Generator 就是 Hugo、Hexo 這些可以將 Markdown 檔案轉成 HTML 的程式。因為很多網站（GitHub Pages、Netlify）可以讓你免費丟靜態的 HTML，所以不少人用 Hugo 或 Hexo 寫部落格，多數中文獨立部落格是用 SSG 生成的。</p>
 <p>之前這個部落格就是用 Hugo 架的。那為什麼我要自己從頭造輪子？有現成的 Hugo、Hexo 不好嗎？</p>
 <h2>為什麼我放棄 Hugo</h2>
@@ -301,7 +301,7 @@ double add(double a, double b) {
 <li><code>jet serve</code> 在 local 預覽網站</li>
 <li><code>jet build</code> 生成最後能上線的網站檔案</li>
 </ul>
-]]></content:encoded></item><item><title>人生地圖——過好這一生，你需要什麼</title><link>https://yubairuime.github.io/blog//posts/life-roadmap</link><description><![CDATA[人生可以劃分成數個重要的領域，而人應該花大部分時間顧好這些領域。]]></description><pubDate>Sun, 21 Sep 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p><img src="/images/life.webp" alt="" /></p>
+]]></content:encoded></item><item><title>人生地圖——過好這一生，你需要什麼</title><link>https://yubairuime.github.io/blog//posts/life-roadmap</link><description><![CDATA[人生可以劃分成數個重要的領域，而人應該花大部分時間顧好這些領域。]]></description><pubDate>Sun, 21 Sep 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p><img src="/blog/images/life.webp" alt="" /></p>
 <p>比起 <a href="https://www.buildingasecondbrain.com/para">PARA</a>、<a href="https://zettelkasten.de/overview/">卡片盒筆記法</a>、<a href="https://gettingthingsdone.com/">GTD</a> 這些繁瑣的方法，個人認為有兩個問題比這些方法更重要：</p>
 <blockquote>
 <p>「<strong>我們是誰？</strong>」和「<strong>我們要去哪？</strong>」。</p>
@@ -376,7 +376,7 @@ double add(double a, double b) {
 <p>副業的規模不用過大，也不一定得賺錢。一個簡單的 side project、YouTube 頻道或替報刊寫稿都是很好的副業。</p>
 <h4>財務</h4>
 <p>財務遠不止「無腦定期定額 0050」這麼簡單。由於我不是財務上的專家，我無法提供太有建設性的意見。不過我可以給個大原則：<strong>深入瞭解原理</strong>（其他領域也適用，但在此尤其重要）。瞭解原理後，你就不會被一些靠着運氣投資賺了不少錢的猴子騙。</p>
-]]></content:encoded></item><item><title>如何打造想要的人生</title><link>https://yubairuime.github.io/blog//posts/how-to-succeed-naval</link><description><![CDATA[從納瓦爾的貼文談如何成功]]></description><pubDate>Thu, 18 Sep 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p><img src="/images/naval.png" alt="" /></p>
+]]></content:encoded></item><item><title>如何打造想要的人生</title><link>https://yubairuime.github.io/blog//posts/how-to-succeed-naval</link><description><![CDATA[從納瓦爾的貼文談如何成功]]></description><pubDate>Thu, 18 Sep 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p><img src="/blog/images/naval.png" alt="" /></p>
 <p>上圖是 Naval（一個知名天使投資人 &amp; 講者）廣爲人知的 tweet。私認爲這則 tweet 十分中肯且貼切，值得每個人參考。</p>
 ]]></content:encoded></item><item><title>我推的內容（不定期更新）</title><link>https://yubairuime.github.io/blog//posts/what-i-recommend</link><description><![CDATA[記錄值得推薦的部落格、書籍、動漫、遊戲和電影]]></description><pubDate>Sat, 20 Sep 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<h2>前言</h2>
 <p>下午在刷 RSS Reader 時，我突然覺得來整理一個「我會推薦給別人的清單」是個好點子。所以這篇文章會收錄（幾乎）所有我欣賞的內容，包含部落格、書籍、動漫、遊戲和電影等等。</p>
@@ -400,6 +400,8 @@ double add(double a, double b) {
 <li>深夜加油站遇見蘇格拉底</li>
 <li>人間失格</li>
 <li>心</li>
+<li>剃刀邊緣</li>
+<li>月亮與六便士</li>
 <li>異鄉人</li>
 <li>戰廢品</li>
 <li>福爾摩斯探案</li>
