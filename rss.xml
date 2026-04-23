@@ -1,22 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yubairuime&apos;s blog</title><link>https://yubairuime.github.io/blog/rss.xml</link><description>一個創作者的隨筆</description><item><title>寫十年後還會讀的文章</title><link>https://yubairuime.github.io/blog//posts/timeless_writing</link><description><![CDATA[內容創作者應該儘可能創作不被時間淘汰的作品。]]></description><pubDate>Thu, 28 Aug 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p>比起寫一個月就失去價值的文章，我更希望創作十年後還會有人讀的作品。網路上目前多數貼文、文章活不過半年——了不起的文章一年。隨著時間和熱潮過去，這些作品的價值也隨之消失。經歷時間考驗的文章寥寥無幾，但這些文章才有真正的價值。而我認為，一個創作者應該盡力創作此類作品。</p>
-<p>當然，這不代表所謂「廢文」沒有價值。如同在閣樓翻到陳年的舊照片，多年以後回看這些記憶片刻，又是另一種特別的體驗。不過，私認為「廢文」更適合放在 Mastodon、Instagram、X——或傳統一點，日記——上。「我想別人知道這些事」、「我想幫助別人」、「我想藉此學習、賺錢」，寫部落格的理由該是其中之一，而也正因如此，創作者更該創作恆久的內容——因為這才是資訊世代得到長久注意力的方式。</p>
-<h2>容易過時的文章主題</h2>
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>yubairuime&apos;s blog</title><link>https://yubairuime.github.io/blog/rss.xml</link><description>一個創作者的隨筆</description><item><title>你不必回答每個問題</title><link>https://yubairuime.github.io/blog//posts/on_problems</link><description><![CDATA[]]></description><pubDate>Wed, 24 Dec 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p>我將所有問題分成兩種：</p>
 <ul>
-<li>時事</li>
-<li>某個 library、app、program 的用法</li>
-<li>發洩</li>
-<li>書評</li>
-<li>某個時下技術</li>
+<li>A 類：需要回答的問題</li>
+<li>B 類：不一定要回答的問題</li>
 </ul>
-<h2>不易過時的文章主題</h2>
-<ul>
-<li>行業精華 &amp; 原則</li>
-<li>人生</li>
-<li>自我提升</li>
-<li>價值觀</li>
-<li>恆常不變的技術（C、Linux）</li>
-<li>對事物本質的深刻思考</li>
-</ul>
+<p>B 類問題充斥在生活中——拿時事舉例的話，王 Aden 的事（讀者沒聽說就別管了吧）就是 B 類問題中的 B 類問題。B 類問題對生活近乎毫無幫助，頂多作為思考練習。但在現實中，幾乎每個人（包含我）在 B 類問題上浪費時間、精力。因為 B 類問題相對容易思考、有對錯之分，大部分人容易沉溺其中。某中國藍底白字 App 就是靠著人類對 B 類問題的傾向做大的。</p>
+<p>和 B 類問題相比，A 類問題少得可憐。但 A 類問題才具有真正的價值，也唯有它能讓人生、社會更好。</p>
+<p>Larry Page 腦中的 A 類問題是：「如何讓人更快找到想要的資料？」於是，他創辦了 Google 來解決這個問題。</p>
+<p>Steve Jobs 腦中的 A 類問題是：「如何創造易用的電腦？」於是，iPhone、iPad 因此誕生。</p>
+<p>Elon Musk 腦中的 A 類問題是：「如何降低火箭發射的成本？」於是，SpaceX 成為 NASA 的承包商。</p>
+<p>如果腦中沒有 A 類問題的話，就去找吧。然後全力解決這些 A 類問題。</p>
 ]]></content:encoded></item><item><title>一次搞懂動態類型/靜態類型、強類型/弱類型</title><link>https://yubairuime.github.io/blog//posts/static-dynamic-strong-weak-typed</link><description><![CDATA[]]></description><pubDate>Sat, 1 Nov 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p>第一堂資訊課時，電腦老師總會（應該吧）說「C++ 是靜態 &amp; 弱類型語言、Python 是動態 &amp; 強類型語言」。</p>
 <p>但 C++ 又哪裏「靜態」？Python 又為何是「強類型」？</p>
 <p>這篇文章，我想談談「動態/靜態類型」、「強/弱」語言之間的差異。</p>
@@ -86,11 +78,223 @@ double add(double a, double b) {
 </ul>
 <p>因爲編譯器可以由程式中推出變數的類型、一個 class 有哪些函數，所以普遍而言 IDE 對靜態語言的支持較好。</p>
 <p>不過這點在 Microsoft 搞出 LSP 後差距減少不少。</p>
+]]></content:encoded></item><item><title>如何打造想要的人生</title><link>https://yubairuime.github.io/blog//posts/how-to-succeed-naval</link><description><![CDATA[從納瓦爾的貼文談如何成功]]></description><pubDate>Thu, 18 Sep 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p><img src="/blog/images/naval.png" alt="" /></p>
+<p>上圖是 Naval（一個知名天使投資人 &amp; 講者）廣爲人知的 tweet。私認爲這則 tweet 十分中肯且貼切，值得每個人參考。</p>
+]]></content:encoded></item><item><title>寫十年後還會讀的文章</title><link>https://yubairuime.github.io/blog//posts/timeless_writing</link><description><![CDATA[內容創作者應該儘可能創作不被時間淘汰的作品。]]></description><pubDate>Thu, 28 Aug 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p>比起寫一個月就失去價值的文章，我更希望創作十年後還會有人讀的作品。網路上目前多數貼文、文章活不過半年——了不起的文章一年。隨著時間和熱潮過去，這些作品的價值也隨之消失。經歷時間考驗的文章寥寥無幾，但這些文章才有真正的價值。而我認為，一個創作者應該盡力創作此類作品。</p>
+<p>當然，這不代表所謂「廢文」沒有價值。如同在閣樓翻到陳年的舊照片，多年以後回看這些記憶片刻，又是另一種特別的體驗。不過，私認為「廢文」更適合放在 Mastodon、Instagram、X——或傳統一點，日記——上。「我想別人知道這些事」、「我想幫助別人」、「我想藉此學習、賺錢」，寫部落格的理由該是其中之一，而也正因如此，創作者更該創作恆久的內容——因為這才是資訊世代得到長久注意力的方式。</p>
+<h2>容易過時的文章主題</h2>
+<ul>
+<li>時事</li>
+<li>某個 library、app、program 的用法</li>
+<li>發洩</li>
+<li>書評</li>
+<li>某個時下技術</li>
+</ul>
+<h2>不易過時的文章主題</h2>
+<ul>
+<li>行業精華 &amp; 原則</li>
+<li>人生</li>
+<li>自我提升</li>
+<li>價值觀</li>
+<li>恆常不變的技術（C、Linux）</li>
+<li>對事物本質的深刻思考</li>
+</ul>
+]]></content:encoded></item><item><title>我推的內容（不定期更新）</title><link>https://yubairuime.github.io/blog//posts/what-i-recommend</link><description><![CDATA[記錄值得推薦的部落格、書籍、動漫、遊戲和電影]]></description><pubDate>Sat, 20 Sep 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<h2>前言</h2>
+<p>下午在刷 RSS Reader 時，我突然覺得來整理一個「我會推薦給別人的清單」是個好點子。所以這篇文章會收錄（幾乎）所有我欣賞的內容，包含部落格、書籍、動漫、遊戲和電影等等。</p>
+<p><strong>排名不分前後</strong>。</p>
+<h2>部落格</h2>
+<ul>
+<li><a href="https://www.yinwang.org/">当然我在扯淡</a></li>
+<li><a href="https://manateelazycat.github.io/">Manateelazycat</a></li>
+<li><a href="https://program-think.blogspot.com/">编程随想的博客</a></li>
+<li><a href="https://ramsayleung.github.io/zh/">菠萝油与天光墟</a></li>
+<li><a href="https://blog.huli.tw/">Huli's Blog</a></li>
+<li><a href="https://sheracaolity.ghost.io/">Sheracaolity</a></li>
+<li><a href="https://coolshell.cn/">酷 壳 – CoolShell</a></li>
+</ul>
+<h2>書籍</h2>
+<h3>Fiction</h3>
+<ul>
+<li>牧羊少年奇幻之旅</li>
+<li>小王子</li>
+<li>流浪者之歌</li>
+<li>車輪下</li>
+<li>深夜加油站遇見蘇格拉底</li>
+<li>人間失格</li>
+<li>剃刀邊緣</li>
+<li>月亮與六便士</li>
+<li>異鄉人</li>
+<li>戰廢品</li>
+<li>福爾摩斯探案</li>
+</ul>
+<h3>Non-fiction</h3>
+<ul>
+<li>賈伯斯傳</li>
+<li>最後十四堂星期二的課</li>
+<li>原子習慣</li>
+<li>黑馬思維</li>
+<li>當下的力量</li>
+<li>我、刀槍不入</li>
+<li>被討厭的勇氣</li>
+<li>我想和你好好說話</li>
+<li>僧人心態</li>
+<li>與成功有約</li>
+<li>少有人走的路</li>
+<li>毒性羞恥</li>
+</ul>
+<h2>動漫</h2>
+<ul>
+<li>暗殺教室</li>
+<li>我內心的糟糕念頭</li>
+<li>棋靈王</li>
+<li>無職轉生</li>
+<li>FX 戰士久留美</li>
+<li>輝夜姬想讓人告白</li>
+<li>擅長捉弄人的高木同學</li>
+<li>敗北女角太多了</li>
+<li>浪客劍心</li>
+<li>Dr. Stone</li>
+<li>One Outs</li>
+</ul>
+<h2>遊戲</h2>
+<ul>
+<li>紀念碑谷 1 &amp; 2</li>
+<li>Minecraft</li>
+</ul>
+<h2>電影</h2>
+<ul>
+<li>肖申克的救贖</li>
+<li>三個傻瓜</li>
+<li>波希米亞狂想曲</li>
+</ul>
+]]></content:encoded></item><item><title>2026 新的開始</title><link>https://yubairuime.github.io/blog//posts/2026_new_start</link><description><![CDATA[]]></description><pubDate>Mon, 29 Dec 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p>後天便是 2026 了（時間過得還真快）。</p>
+<p>我為 2026 立下了三個最重要的目標：</p>
+<ul>
+<li>重新設計生活</li>
+<li>完成一個產品的原型</li>
+<li>讀完 CSAPP 前九章</li>
+</ul>
+<h2>重新設計生活</h2>
+<p>說來慚愧，我過去兩年的生活十分混亂：</p>
+<ul>
+<li>沒有明確的作息</li>
+<li>沒有明確的目標</li>
+<li>得過且過，幾乎完全不依賴原則行事</li>
+<li>將時間、精力投入一些自己根本不需在乎的事情</li>
+<li>用各類垃圾（物質上和精神上）糟蹋自己</li>
+</ul>
+<p>所以，我打算重新思考、設計生活方式。</p>
+<p>我目前想到的項目有這些：</p>
+<ul>
+<li>作息</li>
+<li>習慣</li>
+<li>興趣</li>
+<li>原則（哲學）</li>
+<li>飲食</li>
+<li>內容接觸</li>
+</ul>
+<h2>完成一個產品原型</h2>
+<p>關於這項，我無法著墨過多（說出來就不好玩了：））。</p>
+<p>產品方向是語言學習，但應該能把目前市面上多數的同類 App 吊起來打（包含 Duolingo）。</p>
+<p>還請讀者等待。</p>
+<h2>讀完 CSAPP 前九章</h2>
+<p>最近寫個人 Project 有感：底層知識還是挺重要的。別看網上 Vibe Coding 一堆，上生產照樣被幹到飛起。</p>
+<p>CSAPP 作為可能是 Computer Architecture 中最全面的入門書（CMU 的入門，嗯），在國內外頗具盛名。</p>
+<p>考量到時間精力，我大概只會讀到第九章（Virtual Memory）。但應該也夠我用一陣子了。</p>
+]]></content:encoded></item><item><title>人生地圖——過好這一生，你需要什麼</title><link>https://yubairuime.github.io/blog//posts/life-roadmap</link><description><![CDATA[人生可以劃分成數個重要的領域，而人應該花大部分時間顧好這些領域。]]></description><pubDate>Sun, 21 Sep 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p><img src="/blog/images/life.webp" alt="" /></p>
+<p>比起 <a href="https://www.buildingasecondbrain.com/para">PARA</a>、<a href="https://zettelkasten.de/overview/">卡片盒筆記法</a>、<a href="https://gettingthingsdone.com/">GTD</a> 這些繁瑣的方法，個人認為有兩個問題比這些方法更重要：</p>
+<blockquote>
+<p>「<strong>我們是誰？</strong>」和「<strong>我們要去哪？</strong>」。</p>
+</blockquote>
+<p>上面這張圖我稱之為「人生地圖」，專門用來幫助每個人回答上面兩個問題。只要盡力累積圖中領域的資產、根據這張圖發展、思考自己，人生自然過得有序、充實而不失去方向。</p>
+<p>以下就此圖展開說明。</p>
+<hr />
+<p>人生有兩個必須鞏固的領域：<strong>個人</strong> 和 <strong>健康</strong>。這兩者缺一不可——沒了個人發展，人只是一個普通的生物；沒了健康，人根本發展不了。所以這兩者是最重要、必須優先發展的領域。</p>
+<p>「健康」可以又分為 <strong>生理健康</strong> 和 <strong>精神健康</strong>。</p>
+<p>「個人」則包含 <strong>個人發展（圖中的個性、價值觀那些）</strong>、<strong>生活</strong> 和 <strong>工作</strong> 三個子領域。三者中 <strong>個人發展</strong> 為先，「工作」和「生活」並列。</p>
+<h2>健康</h2>
+<h3>生理健康</h3>
+<p>普通人應該要照顧、但卻超過一半的人沒顧好的東西。</p>
+<p>一些常見的原則：</p>
+<ul>
+<li>每天睡滿 6～7 個小時</li>
+<li>睡前 1 小時不花手機</li>
+<li>固定時間就寢、起床</li>
+<li>儘量吃未經加工的食物</li>
+<li>不喝含糖飲料</li>
+<li>不煙不酒不毒不黃</li>
+</ul>
+<h3>精神健康</h3>
+<p>每個人對此的標準不一樣，所以建議根據自身情況立下不同規則。</p>
+<p>範例：</p>
+<ul>
+<li>不用社群媒體</li>
+<li>不看新聞</li>
+<li>不滑短影片</li>
+<li>每天冥想</li>
+<li>定期心理諮商</li>
+</ul>
+<h2>個人</h2>
+<h3>個人發展</h3>
+<h4>個性</h4>
+<p>儘管在不少人眼中，個性不會變動，但你依然該瞭解、並嘗試改變自己的個性。知道個性可以給你一個基準點，讓你知道該自己該往哪個方向改變。</p>
+<h4>價值觀</h4>
+<p>每個人的偏好不同，所以延伸出各種價值觀。價值觀<strong>沒有對錯</strong>（除非傷害到其他人），別人的價值觀不見得適合你，所以必須尋找適合自己的價值。</p>
+<p>範例：</p>
+<ul>
+<li>家庭爲重</li>
+<li>幫助他人</li>
+<li>民主</li>
+</ul>
+<h4>心態</h4>
+<p>和價值觀的不一樣，心態有好有壞。正確的心態能讓你挺過低谷、成就無法成就之事；錯誤的心態會讓你深陷泥沼、沉溺於過去。</p>
+<p>好心態範例：</p>
+<ul>
+<li>要事第一</li>
+<li>把握當下</li>
+<li>人可以決定過去如何影響現在</li>
+<li>一切都有可能</li>
+<li>無我利他</li>
+<li>積極主動</li>
+</ul>
+<h4>能力</h4>
+<p>能力可分成「硬能力」和「軟能力」。兩種無分優劣、也都需要、值得花時間培養。</p>
+<p>「硬能力」爲深入單一領域的能力，比如做外科手術、處理滾地球、解積分題目等。通常來說，「硬能力」決定人在特定專業領域的成就。</p>
+<p>「軟能力」爲廣泛運用在不同領域的能力，比如閱讀、寫作、溝通、演說等。「軟能力」不只適用於工作，也對生活也不可欠缺。</p>
+<h3>生活</h3>
+<h4>感情</h4>
+<p>雖然我把「感情」放到地圖較深的分支，但這不代表感情不重要——相反地，感情是人生中數一數二重要的一部分。沒有了人與人之間的感情，你所做的一切或許只是白費時間。但是，<strong>完整的個體是感情的基礎</strong>。如果你不先成爲一個完整的人，<strong>你的感情終究會失敗</strong>。友情或許不一定因此消散，但愛情一定會因其中一方的不完整而破滅。所以「個人」才是數一數二優先的領域。</p>
+<p>感情分成友情、愛情和親情三塊。每塊都有所不同，有鑑於篇幅就不展開說明了。</p>
+<h4>興趣</h4>
+<p>除了感情和工作外，興趣也是生活中重要的一環。具體可看编程随想的 <a href="https://program-think.blogspot.com/2015/12/Hobbies-and-Interests.html">什么是【真正的】兴趣爱好？以及它有啥好处？</a> 一文。</p>
+<h3>工作</h3>
+<h4>主業</h4>
+<p>9 to 5 是幾乎每個人的主業（創業家除外）。對多數人而言，工作只是換取金錢的工具。但實際上，你更該把工作當成一種「事業」——你是「自己」這家公司的老闆，公司的產品是「你」本身。老闆必須思考如何讓產品變得搶手，還要根據前景調整方向。</p>
+<p>如果你選擇創業的話，那更好（不過也不見得適合每個人）。</p>
+<h4>副業</h4>
+<p>人除了主業以外，也該投資時間和精力在副業上。副業能分散主業可能的風險，爲主業帶來靈感，並讓你不會把寶貴的週末丟給 Netflix 或 TikTok。如果你不喜歡自己的主業，也能考慮將副業變成你的主業。</p>
+<p>副業的規模不用過大，也不一定得賺錢。一個簡單的 side project、YouTube 頻道或替報刊寫稿都是很好的副業。</p>
+<h4>財務</h4>
+<p>財務遠不止「無腦定期定額 0050」這麼簡單。由於我不是財務上的專家，我無法提供太有建設性的意見。不過我可以給個大原則：<strong>深入瞭解原理</strong>（其他領域也適用，但在此尤其重要）。瞭解原理後，你就不會被一些靠着運氣投資賺了不少錢的猴子騙。</p>
+]]></content:encoded></item><item><title>設定 GitHub SSH 連線公鑰</title><link>https://yubairuime.github.io/blog//posts/setting-up-github-ssh-public-key</link><description><![CDATA[如何在本機生成 SSH Key，並加入 GitHub。]]></description><pubDate>Mon, 22 Jul 2024 12:00:00 +0000</pubDate><content:encoded><![CDATA[<h2>1. 利用 <code>ssh-keygen</code> 產生金鑰</h2>
+<p>在 terminal 底下輸入以下指令：</p>
+<pre><code>ssh-keygen -t ed25519 -C &quot;youremail@example.com&quot;
+</code></pre>
+<p>其中的 <code>youremail@example.com</code> 要換成你註冊 GitHub 時所用的 email。</p>
+<p><code>ssh-keygen</code> 會讓你設定金鑰儲存的地方，預設會在 <code>~/.ssh/id_ed25519</code> ，若不想變更按 <code>Enter</code> 鍵即可。</p>
+<p>接著它還會讓你設定 passphrase ，一樣按 <code>Enter</code> 鍵跳過就行。</p>
+<h2>2. 複製剛剛設定的金鑰</h2>
+<p>在 terminal 底下輸入以下指令輸出給 GitHub 的公鑰，並將其複製：</p>
+<pre><code>cat ~/.ssh/id_ed25519.pub
+</code></pre>
+<h2>3. 將金鑰新增至 GitHub</h2>
+<p>打開 <a href="https://github.com/settings/keys">GitHub 設定金鑰的頁面</a>，按下畫面中的 <strong>New SSH key</strong>，貼上剛剛複製的公鑰，按下確定後即設定完成。</p>
+<p>此時你可以用 <code>ssh</code> clone 隨意一個 repo 看看，如果 clone 的了就是設定成功了。</p>
 ]]></content:encoded></item><item><title>我為什麼使用 Emacs</title><link>https://yubairuime.github.io/blog//posts/why-emacs</link><description><![CDATA[解釋我使用 Emacs 的原因——Flexibility, Power, Keyboard-Driven。]]></description><pubDate>Wed, 27 Aug 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p>我從兩年前開始用 Emacs——我通常用它來寫文章（包括目前這篇）、寫程式、問 AI 問題，使用體驗非常好。但是，我周圍的人幾乎都不理解——他們覺得 Emacs 很慢、老、而且很奇怪（可能最後一點是對的）。</p>
 <p>所以，我想來說說我使用 Emacs 作為主力 text editor （和系統）的理由。</p>
 <h2>Flexibility</h2>
 <h3>Emacs 給你真正的自由</h3>
-<p><img src="/images/editor_war.png" alt="" /></p>
+<p><img src="/blog/images/editor_war.png" alt="" /></p>
 <p>Emacs 允許你做<strong>任何你想要的事</strong>——<strong>真的，就是字面上的意思</strong>。</p>
 <ul>
 <li>不喜歡 modeline？自己刻！</li>
@@ -149,54 +353,6 @@ double add(double a, double b) {
 <h2>總結</h2>
 <p>試試看 Emacs 吧。可以用用看我的 <a href="https://github.com/yubairuime/emacs.d">emacs.d</a>，或是用成熟的 configuration （比如 <a href="https://github.com/doomemacs/doomemacs">Doom Emacs</a>）。</p>
 <p>你會喜歡上 Emacs 的 :)</p>
-]]></content:encoded></item><item><title>設定 GitHub SSH 連線公鑰</title><link>https://yubairuime.github.io/blog//posts/setting-up-github-ssh-public-key</link><description><![CDATA[如何在本機生成 SSH Key，並加入 GitHub。]]></description><pubDate>Mon, 22 Jul 2024 12:00:00 +0000</pubDate><content:encoded><![CDATA[<h2>1. 利用 <code>ssh-keygen</code> 產生金鑰</h2>
-<p>在 terminal 底下輸入以下指令：</p>
-<pre><code>ssh-keygen -t ed25519 -C &quot;youremail@example.com&quot;
-</code></pre>
-<p>其中的 <code>youremail@example.com</code> 要換成你註冊 GitHub 時所用的 email。</p>
-<p><code>ssh-keygen</code> 會讓你設定金鑰儲存的地方，預設會在 <code>~/.ssh/id_ed25519</code> ，若不想變更按 <code>Enter</code> 鍵即可。</p>
-<p>接著它還會讓你設定 passphrase ，一樣按 <code>Enter</code> 鍵跳過就行。</p>
-<h2>2. 複製剛剛設定的金鑰</h2>
-<p>在 terminal 底下輸入以下指令輸出給 GitHub 的公鑰，並將其複製：</p>
-<pre><code>cat ~/.ssh/id_ed25519.pub
-</code></pre>
-<h2>3. 將金鑰新增至 GitHub</h2>
-<p>打開 <a href="https://github.com/settings/keys">GitHub 設定金鑰的頁面</a>，按下畫面中的 <strong>New SSH key</strong>，貼上剛剛複製的公鑰，按下確定後即設定完成。</p>
-<p>此時你可以用 <code>ssh</code> clone 隨意一個 repo 看看，如果 clone 的了就是設定成功了。</p>
-]]></content:encoded></item><item><title>2026 新的開始</title><link>https://yubairuime.github.io/blog//posts/2026_new_start</link><description><![CDATA[]]></description><pubDate>Mon, 29 Dec 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p>後天便是 2026 了（時間過得還真快）。</p>
-<p>我為 2026 立下了三個最重要的目標：</p>
-<ul>
-<li>重新設計生活</li>
-<li>完成一個產品的原型</li>
-<li>讀完 CSAPP 前九章</li>
-</ul>
-<h2>重新設計生活</h2>
-<p>說來慚愧，我過去兩年的生活十分混亂：</p>
-<ul>
-<li>沒有明確的作息</li>
-<li>沒有明確的目標</li>
-<li>得過且過，幾乎完全不依賴原則行事</li>
-<li>將時間、精力投入一些自己根本不需在乎的事情</li>
-<li>用各類垃圾（物質上和精神上）糟蹋自己</li>
-</ul>
-<p>所以，我打算重新思考、設計生活方式。</p>
-<p>我目前想到的項目有這些：</p>
-<ul>
-<li>作息</li>
-<li>習慣</li>
-<li>興趣</li>
-<li>原則（哲學）</li>
-<li>飲食</li>
-<li>內容接觸</li>
-</ul>
-<h2>完成一個產品原型</h2>
-<p>關於這項，我無法著墨過多（說出來就不好玩了：））。</p>
-<p>產品方向是語言學習，但應該能把目前市面上多數的同類 App 吊起來打（包含 Duolingo）。</p>
-<p>還請讀者等待。</p>
-<h2>讀完 CSAPP 前九章</h2>
-<p>最近寫個人 Project 有感：底層知識還是挺重要的。別看網上 Vibe Coding 一堆，上生產照樣被幹到飛起。</p>
-<p>CSAPP 作為可能是 Computer Architecture 中最全面的入門書（CMU 的入門，嗯），在國內外頗具盛名。</p>
-<p>考量到時間精力，我大概只會讀到第九章（Virtual Memory）。但應該也夠我用一陣子了。</p>
 ]]></content:encoded></item><item><title>我用 Rust 寫了一個 Static Site Generator 取代 Hugo</title><link>https://yubairuime.github.io/blog//posts/i-wrote-a-ssg-to-replace-hugo</link><description><![CDATA[爲了更多的自由，我放棄使用 Hugo，轉而用 Rust 重頭寫了一個 Static Site Generator (SSG)。]]></description><pubDate>Sun, 7 Sep 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p>近來無事，用 Rust 從頭刻了一個 Static Site Generator——<a href="https://github.com/yubairuime/jet">Jet</a>。</p>
 <p>Static Site Generator 就是 Hugo、Hexo 這些可以將 Markdown 檔案轉成 HTML 的程式。因為很多網站（GitHub Pages、Netlify）可以讓你免費丟靜態的 HTML，所以不少人用 Hugo 或 Hexo 寫部落格，多數中文獨立部落格是用 SSG 生成的。</p>
 <p>之前這個部落格就是用 Hugo 架的。那為什麼我要自己從頭造輪子？有現成的 Hugo、Hexo 不好嗎？</p>
@@ -301,160 +457,4 @@ double add(double a, double b) {
 <li><code>jet serve</code> 在 local 預覽網站</li>
 <li><code>jet build</code> 生成最後能上線的網站檔案</li>
 </ul>
-]]></content:encoded></item><item><title>人生地圖——過好這一生，你需要什麼</title><link>https://yubairuime.github.io/blog//posts/life-roadmap</link><description><![CDATA[人生可以劃分成數個重要的領域，而人應該花大部分時間顧好這些領域。]]></description><pubDate>Sun, 21 Sep 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p><img src="/blog/images/life.webp" alt="" /></p>
-<p>比起 <a href="https://www.buildingasecondbrain.com/para">PARA</a>、<a href="https://zettelkasten.de/overview/">卡片盒筆記法</a>、<a href="https://gettingthingsdone.com/">GTD</a> 這些繁瑣的方法，個人認為有兩個問題比這些方法更重要：</p>
-<blockquote>
-<p>「<strong>我們是誰？</strong>」和「<strong>我們要去哪？</strong>」。</p>
-</blockquote>
-<p>上面這張圖我稱之為「人生地圖」，專門用來幫助每個人回答上面兩個問題。只要盡力累積圖中領域的資產、根據這張圖發展、思考自己，人生自然過得有序、充實而不失去方向。</p>
-<p>以下就此圖展開說明。</p>
-<hr />
-<p>人生有兩個必須鞏固的領域：<strong>個人</strong> 和 <strong>健康</strong>。這兩者缺一不可——沒了個人發展，人只是一個普通的生物；沒了健康，人根本發展不了。所以這兩者是最重要、必須優先發展的領域。</p>
-<p>「健康」可以又分為 <strong>生理健康</strong> 和 <strong>精神健康</strong>。</p>
-<p>「個人」則包含 <strong>個人發展（圖中的個性、價值觀那些）</strong>、<strong>生活</strong> 和 <strong>工作</strong> 三個子領域。三者中 <strong>個人發展</strong> 為先，「工作」和「生活」並列。</p>
-<h2>健康</h2>
-<h3>生理健康</h3>
-<p>普通人應該要照顧、但卻超過一半的人沒顧好的東西。</p>
-<p>一些常見的原則：</p>
-<ul>
-<li>每天睡滿 6～7 個小時</li>
-<li>睡前 1 小時不花手機</li>
-<li>固定時間就寢、起床</li>
-<li>儘量吃未經加工的食物</li>
-<li>不喝含糖飲料</li>
-<li>不煙不酒不毒不黃</li>
-</ul>
-<h3>精神健康</h3>
-<p>每個人對此的標準不一樣，所以建議根據自身情況立下不同規則。</p>
-<p>範例：</p>
-<ul>
-<li>不用社群媒體</li>
-<li>不看新聞</li>
-<li>不滑短影片</li>
-<li>每天冥想</li>
-<li>定期心理諮商</li>
-</ul>
-<h2>個人</h2>
-<h3>個人發展</h3>
-<h4>個性</h4>
-<p>儘管在不少人眼中，個性不會變動，但你依然該瞭解、並嘗試改變自己的個性。知道個性可以給你一個基準點，讓你知道該自己該往哪個方向改變。</p>
-<h4>價值觀</h4>
-<p>每個人的偏好不同，所以延伸出各種價值觀。價值觀<strong>沒有對錯</strong>（除非傷害到其他人），別人的價值觀不見得適合你，所以必須尋找適合自己的價值。</p>
-<p>範例：</p>
-<ul>
-<li>家庭爲重</li>
-<li>幫助他人</li>
-<li>民主</li>
-</ul>
-<h4>心態</h4>
-<p>和價值觀的不一樣，心態有好有壞。正確的心態能讓你挺過低谷、成就無法成就之事；錯誤的心態會讓你深陷泥沼、沉溺於過去。</p>
-<p>好心態範例：</p>
-<ul>
-<li>要事第一</li>
-<li>把握當下</li>
-<li>人可以決定過去如何影響現在</li>
-<li>一切都有可能</li>
-<li>無我利他</li>
-<li>積極主動</li>
-</ul>
-<h4>能力</h4>
-<p>能力可分成「硬能力」和「軟能力」。兩種無分優劣、也都需要、值得花時間培養。</p>
-<p>「硬能力」爲深入單一領域的能力，比如做外科手術、處理滾地球、解積分題目等。通常來說，「硬能力」決定人在特定專業領域的成就。</p>
-<p>「軟能力」爲廣泛運用在不同領域的能力，比如閱讀、寫作、溝通、演說等。「軟能力」不只適用於工作，也對生活也不可欠缺。</p>
-<h3>生活</h3>
-<h4>感情</h4>
-<p>雖然我把「感情」放到地圖較深的分支，但這不代表感情不重要——相反地，感情是人生中數一數二重要的一部分。沒有了人與人之間的感情，你所做的一切或許只是白費時間。但是，<strong>完整的個體是感情的基礎</strong>。如果你不先成爲一個完整的人，<strong>你的感情終究會失敗</strong>。友情或許不一定因此消散，但愛情一定會因其中一方的不完整而破滅。所以「個人」才是數一數二優先的領域。</p>
-<p>感情分成友情、愛情和親情三塊。每塊都有所不同，有鑑於篇幅就不展開說明了。</p>
-<h4>興趣</h4>
-<p>除了感情和工作外，興趣也是生活中重要的一環。具體可看编程随想的 <a href="https://program-think.blogspot.com/2015/12/Hobbies-and-Interests.html">什么是【真正的】兴趣爱好？以及它有啥好处？</a> 一文。</p>
-<h3>工作</h3>
-<h4>主業</h4>
-<p>9 to 5 是幾乎每個人的主業（創業家除外）。對多數人而言，工作只是換取金錢的工具。但實際上，你更該把工作當成一種「事業」——你是「自己」這家公司的老闆，公司的產品是「你」本身。老闆必須思考如何讓產品變得搶手，還要根據前景調整方向。</p>
-<p>如果你選擇創業的話，那更好（不過也不見得適合每個人）。</p>
-<h4>副業</h4>
-<p>人除了主業以外，也該投資時間和精力在副業上。副業能分散主業可能的風險，爲主業帶來靈感，並讓你不會把寶貴的週末丟給 Netflix 或 TikTok。如果你不喜歡自己的主業，也能考慮將副業變成你的主業。</p>
-<p>副業的規模不用過大，也不一定得賺錢。一個簡單的 side project、YouTube 頻道或替報刊寫稿都是很好的副業。</p>
-<h4>財務</h4>
-<p>財務遠不止「無腦定期定額 0050」這麼簡單。由於我不是財務上的專家，我無法提供太有建設性的意見。不過我可以給個大原則：<strong>深入瞭解原理</strong>（其他領域也適用，但在此尤其重要）。瞭解原理後，你就不會被一些靠着運氣投資賺了不少錢的猴子騙。</p>
-]]></content:encoded></item><item><title>如何打造想要的人生</title><link>https://yubairuime.github.io/blog//posts/how-to-succeed-naval</link><description><![CDATA[從納瓦爾的貼文談如何成功]]></description><pubDate>Thu, 18 Sep 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p><img src="/blog/images/naval.png" alt="" /></p>
-<p>上圖是 Naval（一個知名天使投資人 &amp; 講者）廣爲人知的 tweet。私認爲這則 tweet 十分中肯且貼切，值得每個人參考。</p>
-]]></content:encoded></item><item><title>我推的內容（不定期更新）</title><link>https://yubairuime.github.io/blog//posts/what-i-recommend</link><description><![CDATA[記錄值得推薦的部落格、書籍、動漫、遊戲和電影]]></description><pubDate>Sat, 20 Sep 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<h2>前言</h2>
-<p>下午在刷 RSS Reader 時，我突然覺得來整理一個「我會推薦給別人的清單」是個好點子。所以這篇文章會收錄（幾乎）所有我欣賞的內容，包含部落格、書籍、動漫、遊戲和電影等等。</p>
-<p><strong>排名不分前後</strong>。</p>
-<h2>部落格</h2>
-<ul>
-<li><a href="https://www.yinwang.org/">当然我在扯淡</a></li>
-<li><a href="https://manateelazycat.github.io/">Manateelazycat</a></li>
-<li><a href="https://program-think.blogspot.com/">编程随想的博客</a></li>
-<li><a href="https://ramsayleung.github.io/zh/">菠萝油与天光墟</a></li>
-<li><a href="https://blog.huli.tw/">Huli's Blog</a></li>
-<li><a href="https://sheracaolity.ghost.io/">Sheracaolity</a></li>
-</ul>
-<h2>書籍</h2>
-<h3>Fiction</h3>
-<ul>
-<li>牧羊少年奇幻之旅</li>
-<li>小王子</li>
-<li>流浪者之歌</li>
-<li>車輪下</li>
-<li>深夜加油站遇見蘇格拉底</li>
-<li>人間失格</li>
-<li>心</li>
-<li>剃刀邊緣</li>
-<li>月亮與六便士</li>
-<li>異鄉人</li>
-<li>戰廢品</li>
-<li>福爾摩斯探案</li>
-</ul>
-<h3>Non-fiction</h3>
-<ul>
-<li>賈伯斯傳</li>
-<li>最後十四堂星期二的課</li>
-<li>原子習慣</li>
-<li>黑馬思維</li>
-<li>當下的力量</li>
-<li>我、刀槍不入</li>
-<li>被討厭的勇氣</li>
-<li>我想和你好好說話</li>
-<li>僧人心態</li>
-<li>與成功有約</li>
-<li>少有人走的路</li>
-<li>毒性羞恥</li>
-</ul>
-<h2>動漫</h2>
-<ul>
-<li>暗殺教室</li>
-<li>我內心的糟糕念頭</li>
-<li>棋靈王</li>
-<li>無職轉生</li>
-<li>FX 戰士久留美</li>
-<li>輝夜姬想讓人告白</li>
-<li>擅長捉弄人的高木同學</li>
-<li>敗北女角太多了</li>
-<li>浪客劍心</li>
-<li>Dr. Stone</li>
-<li>One Outs</li>
-</ul>
-<h2>遊戲</h2>
-<ul>
-<li>紀念碑谷 1 &amp; 2</li>
-<li>Minecraft</li>
-</ul>
-<h2>電影</h2>
-<ul>
-<li>肖申克的救贖</li>
-<li>三個傻瓜</li>
-<li>波希米亞狂想曲</li>
-</ul>
-]]></content:encoded></item><item><title>你不必回答每個問題</title><link>https://yubairuime.github.io/blog//posts/on_problems</link><description><![CDATA[]]></description><pubDate>Wed, 24 Dec 2025 12:00:00 +0000</pubDate><content:encoded><![CDATA[<p>我將所有問題分成兩種：</p>
-<ul>
-<li>A 類：需要回答的問題</li>
-<li>B 類：不一定要回答的問題</li>
-</ul>
-<p>B 類問題充斥在生活中——拿時事舉例的話，王 Aden 的事（讀者沒聽說就別管了吧）就是 B 類問題中的 B 類問題。B 類問題對生活近乎毫無幫助，頂多作為思考練習。但在現實中，幾乎每個人（包含我）在 B 類問題上浪費時間、精力。因為 B 類問題相對容易思考、有對錯之分，大部分人容易沉溺其中。某中國藍底白字 App 就是靠著人類對 B 類問題的傾向做大的。</p>
-<p>和 B 類問題相比，A 類問題少得可憐。但 A 類問題才具有真正的價值，也唯有它能讓人生、社會更好。</p>
-<p>Larry Page 腦中的 A 類問題是：「如何讓人更快找到想要的資料？」於是，他創辦了 Google 來解決這個問題。</p>
-<p>Steve Jobs 腦中的 A 類問題是：「如何創造易用的電腦？」於是，iPhone、iPad 因此誕生。</p>
-<p>Elon Musk 腦中的 A 類問題是：「如何降低火箭發射的成本？」於是，SpaceX 成為 NASA 的承包商。</p>
-<p>如果腦中沒有 A 類問題的話，就去找吧。然後全力解決這些 A 類問題。</p>
 ]]></content:encoded></item></channel></rss>
